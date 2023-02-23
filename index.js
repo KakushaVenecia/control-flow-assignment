@@ -25,9 +25,9 @@ console.log (sentence)
 // Comparison Operators
 // Equality operator
 
-let num= 2
+let numb= 2
 let str = '2'
- num == str;
+ numb == str;
 
 'venecia' == 'kakusha'
 //Inequality operator(!=) 
@@ -62,42 +62,42 @@ true || false
 
 
 
-// // Question 3
-// // // Define the class group
-// let classGroup = "Arts";
+// Question 3
+// // Define the class group
+let classGroup = "Arts";
 
-// // Check the class group and output the subjects accordingly
-// if (classGroup === "Science") {
-//   console.log("Physics, Chemistry, Biology, Technical Drawing, English, Mathematics");
-// } else if (classGroup === "Social Science") {
-//   console.log("Accounting, Commerce, Marketing, Geography, English, Mathematics");
-// } else if (classGroup === "Arts") {
-//   console.log("Government, Economics, Literature, History, English, Mathematics");
-// } else {
-//   console.log(" English, Mathematics");
-// }
-
-
-
-// // // Question 4
-// // 1, 8 , 15 
+// Check the class group and output the subjects accordingly
+if (classGroup === "Science") {
+  console.log("Physics, Chemistry, Biology, Technical Drawing, English, Mathematics");
+} else if (classGroup === "Social Science") {
+  console.log("Accounting, Commerce, Marketing, Geography, English, Mathematics");
+} else if (classGroup === "Arts") {
+  console.log("Government, Economics, Literature, History, English, Mathematics");
+} else {
+  console.log(" English, Mathematics");
+}
 
 
 
+// // Question 4
+// 1, 8 , 15 
 
-// // Question 5 
-// // Define the input number
-// const num = 3;
-// // Initialize the power of 2 and the difference variables
-// let pwr = 1;
-// let diff = Math.abs(num - pwr);
-// // Loop through the powers of 2 until the difference is not decreasing
-// for (let i = 2; diff >= Math.abs(num - i); i *= 2) {
-//   pwr = i;
-//   diff = Math.abs(num - pwr);
-// }
-// // check for a smaller value
-// if (pwr > 1 && diff > Math.abs(num - pwr/2)) {
-//   pwr /= 2;
-// }
-// console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`)
+
+
+
+// Question 5 
+// Define the input number
+const num = 3;
+// Initialize the power of 2 and the difference variables
+let pwr = 1;
+let diff = Math.abs(num - pwr);
+// Loop through the powers of 2 until the difference is not decreasing
+for (let i = 2; diff >= Math.abs(num - i); i *= 2) {
+  pwr = i;
+  diff = Math.abs(num - pwr);
+}
+// check for a smaller value
+if (pwr > 1 && diff > Math.abs(num - pwr/2)) {
+  pwr /= 2;
+}
+console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`)
